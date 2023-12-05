@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevShakti Projects</title>
+    <link rel="stylesheet" href="project.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <div class="navbar">
+        <h2 class="heading">Portfolio</h2>
+       
+       <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="projects.html">Project</a></li>
+        <li><a href="contact.html">Contact</a></li>
+       </ul>
+    </div>
+
+    <div class="projects">
+        <div class="headi"><h1>My <span>Services</span></h1></div>
+
+        <div class="service">
+            <div class="web">
+                <h3 class="web2">Web Devlopment</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut iure minima officiis eius , numquam quis, itaque aperiam. Minus molestias eius sunt quaerat repellat!</p>
+                <button class="btn" type="button">Read More</button>
+            </div>
+
+            <div class="web">
+                <h3 class="web2">Web Devlopment</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut iure minima officiis eius , numquam quis, itaque aperiam. Minus molestias eius sunt quaerat repellat!</p>
+                <button class="btn" type="button">Read More</button>
+            </div>
+
+            <div class="web">
+                <h3 class="web2">Web Devlopment</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut iure minima officiis eius  numquam quis, itaque aperiam. Minus molestias eius sunt quaerat repellat!</p>
+                <button class="btn" type="button">Read More</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- projects -->
+    <div class="pro">
+        <div class="headi2"><h1>Latest <span>Project</span></h1></div>
+        <div class="Pro1">
+            <div class="pet">
+
+                <img src="petshop.jpg" alt="" height="300px" width="300px">
+                <h3>
+                  <a href="pet.HTML" target="_blank">Petshop Design</a>  
+                </h3>
+            </div>
+            <div class="vinod">
+
+                <img src="Logo.png" alt=""  height="300px" width="300px">
+                <h3 >  Photoshoot Website </h3>
+            </div>
+            </div>
+    </div>
+
+
+    <script>
+
+    
+    ScrollReveal({
+        reset: true,
+        distance:'60px',
+        duration:2500,
+        delay:400
+       });
+    
+       ScrollReveal().reveal('.headi', { delay: 500 ,origin:'right'});
+       ScrollReveal().reveal('.service', { delay: 500 });
+       ScrollReveal().reveal('.me', { delay: 500,origin:'up' ,intervel:'200' });
+       ScrollReveal().reveal('.me3', { delay: 1000 ,origin:'left',});
+    </script>
+</body>
+</html>

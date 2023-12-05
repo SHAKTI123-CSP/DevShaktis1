@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>DevShakti About</title>
+    <link rel="stylesheet" href="About.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <div class="navbar">
+        <h2 class="heading">Portfolio</h2>
+       
+       <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="projects.html">Project</a></li>
+        <li><a href="contact.html">Contact</a></li>
+       </ul>
+    </div>
+    <div class="container2">
+        <div class="one"><img class="one1" src="1.png" alt="" height="550px" width="500px"></div>
+     
+        <div class="two"><h1 class="me">About <span> Me</span></h1>
+            <h2 class="me2">Hi there, welcome to my website! I'm Shakti, a passionate web developer who enjoys learning new technologies and solving problems with code!</h2><br><br><br>
+            <p class="me3">This website is my personal blog where I write about web development topics that interest me and inspire me.
+
+                Thank you for visiting my website and getting to know me better. I hope you enjoyed reading my blog posts and found them useful and informative. If you want to read more of my posts, subscribe to my newsletter where I send weekly updates on web development trends and tips. If you have any feedback or suggestions, please let me know. I'd love to hear from you.</p>
+                <div class="button">
+                    <button type="button"><a href="Home.html"></a>More</button>
+                </div>
+        </div>
+    </div>
+    <script>
+        ScrollReveal({
+            reset: true,
+            distance:'60px',
+            duration:2500,
+            delay:400
+           });
+        
+           ScrollReveal().reveal('.one1', { delay: 500 });
+           ScrollReveal().reveal('.me2', { delay: 500 });
+           ScrollReveal().reveal('.me', { delay: 500,origin:'up' ,intervel:'200' });
+           ScrollReveal().reveal('.me3', { delay: 1000 ,origin:'left',});
+
+    </script>
+</body>
+</html>
